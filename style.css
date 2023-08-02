@@ -1,0 +1,18 @@
+.boardWrap {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    width: 800px;
+    height: 800px;
+}
+
+.tile{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.tile:hover{
+    background-color: rgb(205, 205, 205);
+}
